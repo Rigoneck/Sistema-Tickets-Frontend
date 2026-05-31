@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Creamos una instancia de Axios apuntando a tu backend
 const api = axios.create({
-    baseURL: 'http://localhost:4000/api',
+    baseURL: 'http://198.211.107.175:4000/api',
 });
 
 // Interceptor de peticiones
