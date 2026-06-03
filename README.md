@@ -74,6 +74,3 @@ Sistema-Tickets-Frontend/
 └── README.md
 ```
 
-Equipo
-
-Proyecto desarrollado como parte de la entrega final del Sistema de Tickets.
