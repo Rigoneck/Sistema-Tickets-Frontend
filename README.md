@@ -1,16 +1,79 @@
-# React + Vite
+Sistema de Tickets - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Descripción
 
-Currently, two official plugins are available:
+Frontend del Sistema de Tickets, desarrollado con React y Vite.
+Permite a los usuarios interactuar con la aplicación mediante una interfaz web para iniciar sesión, registrar usuarios, crear tickets, consultar información y administrar solicitudes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Tecnologías utilizadas
 
-## React Compiler
+* React
+* Vite
+* JavaScript
+* Axios
+* React Router DOM
+* CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Requisitos previos
 
-## Expanding the ESLint configuration
+Antes de instalar el proyecto, asegúrate de tener instalado:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Node.js
+* npm
+
+Instalación
+
+Clonar el repositorio:
+
+```bash
+git clone https://github.com/Rigoneck/Sistema-Tickets-Frontend.git
+```
+
+Entrar a la carpeta del proyecto:
+
+```bash
+cd Sistema-Tickets-Frontend
+```
+
+Instalar dependencias:
+
+```bash
+npm install
+```
+
+Ejecutar el proyecto en modo desarrollo:
+
+```bash
+npm run dev
+```
+
+Abrir en el navegador:
+
+```text
+http://localhost:5173
+```
+
+Conexión con Backend
+
+El frontend consume los servicios del backend mediante peticiones HTTP usando Axios.
+
+Backend del proyecto:
+
+```text
+https://github.com/Rigoneck/Sistema-Tickets-Backend
+```
+
+Estructura general
+
+```text
+Sistema-Tickets-Frontend/
+├── public/
+├── src/
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+Equipo
+
+Proyecto desarrollado como parte de la entrega final del Sistema de Tickets.
